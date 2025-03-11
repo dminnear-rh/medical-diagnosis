@@ -19,6 +19,9 @@ global:
       # Bucket base name used for image-generator
       bucketBaseName: "xray-source"
 
+grafana:
+  includeTestDashboard: true
+
 main:
   clusterGroupName: hub
   multiSourceConfig:
@@ -32,4 +35,3 @@ main:
   #  region: us-east-1
   #  clustername: example-sample
   #  domain: patterns.redhat.com
-

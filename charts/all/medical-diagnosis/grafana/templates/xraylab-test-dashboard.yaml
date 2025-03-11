@@ -1,3 +1,4 @@
+{{- if .Values.grafana.includeTestDashboard }}
 apiVersion: grafana.integreatly.org/v1beta1
 kind: GrafanaDashboard
 metadata:
@@ -396,3 +397,4 @@ spec:
   plugins:
     - name: dalvany-image-panel
       version: 4.0.0
+{{- end }}

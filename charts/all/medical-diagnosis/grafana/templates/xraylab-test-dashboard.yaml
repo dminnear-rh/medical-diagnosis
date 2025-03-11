@@ -346,7 +346,7 @@ spec:
               }
             }
           ],
-          "title": "Test processed image",
+          "title": "Test anonymized image",
           "type": "dalvany-image-panel"
         }
       ],

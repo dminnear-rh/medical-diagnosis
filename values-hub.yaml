@@ -2,6 +2,9 @@ storageSystem:
   inventory:
     useSpecificNodes: false
 
+grafana:
+  includeTestDashboard: true
+
 clusterGroup:
   name: hub
   isHubCluster: true
